@@ -9,7 +9,7 @@ public class Route {
 
     @GetMapping("/")
     public String Hello(){
-        return "Hello gladle filho da puta";
+        return "Hello Spring com Gladle";
     }
     @GetMapping("/{nome}")
     public String suer(@PathVariable String nome){
