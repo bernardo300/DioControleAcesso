@@ -11,8 +11,8 @@ public class Route {
     public String Hello(){
         return "Hello gladle filho da puta";
     }
-    @GetMapping("/{user}")
-    public String suer(@PathVariable String user){
-        return user;
+    @GetMapping("/{nome}")
+    public String suer(@PathVariable String nome){
+        return "Ola : "+nome;
     }
 }
