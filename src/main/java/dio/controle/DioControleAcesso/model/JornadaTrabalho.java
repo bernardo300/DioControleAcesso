@@ -13,5 +13,4 @@ import java.util.Objects;
 public class JornadaTrabalho {
     private long id;
     private String descricao;
-
 }
