@@ -8,13 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Builder
-public class Empresa {
+public class Ocorrencia {
     private long id;
+    private String nome;
     private String descricao;
-    private String cnpj;
-    private String endereco;
-    private String bairro;
-    private String cidade;
-    private String estado;
-    private String telefone;
 }
